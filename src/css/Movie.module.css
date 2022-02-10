@@ -1,0 +1,28 @@
+.movie_box {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(138, 137, 137, 0.5);
+    margin-top: 50px;
+    width: 40vw;
+    height: 150px;
+}
+
+.article {
+    padding: 5px 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    width: 100%;
+    overflow: scroll;
+    transform: translateX(20px);
+}
+.article h3 {
+    margin: 10px 0px !important;
+}
+.img_box {
+    width: 200px;
+}
+.img_box > img {
+    width: 100px;
+    border-radius: 15px;
+    transform: translate(20px, -20px);
+}

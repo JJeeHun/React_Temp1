@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 
 function Detail() {
     const { id } = useParams();
@@ -9,7 +9,7 @@ function Detail() {
                 `https://yts.mx/api/v2/movie_details.json?movie_id=${id}`
             )
         ).json();
-        console.log("asdfd", json);
+        console.log("change");
     }, []);
     return <h1>Detail</h1>;
 }

@@ -1,0 +1,7 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(250px, auto);
+    background-color: #e5e2e26e;
+    justify-items: center;
+}
